@@ -11,9 +11,6 @@ body {
 }
 
 main {
-    display: flex;
-    flex-direction: column;
-    align-content: center;
     background-color: #FFFFFF;
     text-align: center;
     width: 480px;
@@ -24,10 +21,21 @@ input {
     text-align: center;
 }
 
-.name-input-form {
+.main-container {
     width: 240px;
-    border-radius: 25px;
     padding: 10px;
     margin: 0 auto;
-    background-color: #BBBBBB;
+    border-radius: 25px;
+}
+
+#cost-inputs {
+    background-color: #AAAAAA;
+}
+
+#cost-inputs h2 {
+    margin: 0;
+}
+
+#name-input-form {
+    background-color: #CCCCCC;
 }
