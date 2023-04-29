@@ -4,7 +4,7 @@ html {
 
 body {
     display: flex;
-    background-color: #777777;
+    background-color: #555555;
     height: 100%;
     justify-content: center;
     align-items: center;
@@ -29,11 +29,15 @@ input {
 }
 
 #cost-inputs {
-    background-color: #AAAAAA;
+    background-color: #888888;
 }
 
 #cost-inputs h2 {
     margin: 0;
+}
+
+.cost-input-art {
+	background-color: #B9B9B9;
 }
 
 #name-input-form {
