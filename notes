@@ -1,0 +1,9 @@
+variable for cost
+variable for ttcost
+
+add name
+	create variable for namecost
+	create variable for ttnamecost
+
+function for update costs
+	run every time inputs are updated
