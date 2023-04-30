@@ -12,12 +12,38 @@
         <main>
             <h1>Group Dinner Calculator</h1>
             <div id="cost-inputs" class="main-container">
-                <h2>Test</h2>
+                <h2>Costs of Group Members</h2>
             </div>
-            <article id="name-input-form" class="main-container">
+            <div id="name-input-form" class="main-container">
                 <input id="name-input" type="text" placeholder="Name">
                 <button id="name-submit">Add</button>
-            </article>
+            </div>
+			<div id="tip-tax-input" class='main-container'>
+				<h2>Tip & Tax</h2>
+				<label>
+					Tax:
+					<input id="tax-input" type="text" inputmode="numeric"
+					placeholder="0.00">
+				</label>
+				<label>
+					Tip:
+					<input id="tip-input" type="range">
+				</label>
+			</div>
+			<div id="cost-totals" class="main-container">
+				<h2>Total Costs</h2>
+				<label>
+					Total Cost:
+					<input id="cost-total" type="text" disabled>
+				</label>
+				<label>
+					Cost With Tax&Tip:
+					<input id="tt-cost-total" type="text" disabled>
+				</label>
+			</div>
+			<div id="cost-outputs" class="main-container">
+				<h2>What To Pay</h2>
+			</div>
         </main>
     </body>
 </html>

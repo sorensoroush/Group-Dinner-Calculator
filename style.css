@@ -21,25 +21,30 @@ input {
     text-align: center;
 }
 
+input[type="text"] {
+	width: 100px;
+}
+
 .main-container {
+    background-color: #888888;
     width: 240px;
     padding: 10px;
     margin: 0 auto;
     border-radius: 25px;
 }
 
-#cost-inputs {
-    background-color: #888888;
-}
-
 #cost-inputs h2 {
     margin: 0;
 }
 
-.cost-input-art {
-	background-color: #B9B9B9;
+.cost-art {
 }
 
 #name-input-form {
     background-color: #CCCCCC;
+}
+
+label {
+	background-color: #B9B9B9;
+	display: block;
 }
