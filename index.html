@@ -27,18 +27,19 @@
 				</label>
 				<label>
 					Tip:
-					<input id="tip-input" type="range">
+					<input id="tip-input" type="range" min="0" max="50" step="1" value="0">
+					<span id="tip-display">0%</span>
 				</label>
 			</div>
 			<div id="cost-totals" class="main-container">
 				<h2>Total Costs</h2>
 				<label>
 					Total Cost:
-					<input id="cost-total" type="number" disabled>
+					<input id="total-cost-display" type="number" value="0.00" disabled>
 				</label>
 				<label>
 					Cost With Tax&Tip:
-					<input id="tt-cost-total" type="number" disabled>
+					<input id="complete-cost-display" type="number" value="0.00" disabled>
 				</label>
 			</div>
 			<div id="cost-outputs" class="main-container">

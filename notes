@@ -7,3 +7,11 @@ add name
 
 function for update costs
 	run every time inputs are updated
+
+	calculate:
+		total cost
+		tip
+		complete cost
+		each individual cost
+			cost + (cost/totalCost)*tax + tip*cost
+	
