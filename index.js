@@ -27,6 +27,13 @@ const updateCosts = () => {
 	totalCostDisplay.value = totalCost.toFixed(2)
 	completeCost = totalCost + taxCost + tipPercentage*totalCost
 	completeCostDisplay.value = completeCost.toFixed(2)
+
+	costOutputs = document.querySelectorAll('#cost-outputs input')
+	costOutputs.forEach((output,index) => {
+		let initialCost = Number(document.querySelector(`#cost-input-${index}`).value)
+		let outputCost = initialCost + initialCost*tipPercentage + (initialCost/totalCost)*taxCost
+		output.value = outputCost.toFixed(2)
+	})
 }
 
 const costTemplate = (name,type) => {
