@@ -14,4 +14,21 @@ function for update costs
 		complete cost
 		each individual cost
 			cost + (cost/totalCost)*tax + tip*cost
+
+Layout changes:
+[ ][ ]
+--[]--
+[ ][ ]
+--[]--
+
+Feature additions:
+	Tip amount
+	Background pattern
+	Div patterns
+	Div backgrounds
+	Signature (bottom)
 	
+Extra challenges:
+1. Access stylus input
+2. After signature, send email
+3. After signature, give notification of input edit
